@@ -19,3 +19,11 @@ A smart Python tool that analyzes your monthly expenses and provides actionable 
 ---
 
 ## 📂 Project Structure
+monthly-expense-analyzer/
+│── main.py
+│── analyzer.py
+│── suggestions.py
+│── utils.py
+│── data_sample.json
+│── requirements.txt
+│── README.md
