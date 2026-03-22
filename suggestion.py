@@ -13,7 +13,7 @@ def generate_suggestions(data, analysis):
     if categories.get("transport", 0) > 0.15 * total:
         suggestions.append("Look into carpooling or public transport to save money.")
 
-    if total > 50000:
+    if total > 25000:
         suggestions.append("Your overall spending is high. Consider setting a strict monthly budget.")
 
     if not suggestions:
